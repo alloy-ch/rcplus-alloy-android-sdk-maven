@@ -2,9 +2,9 @@
 
 This repository hosts the Maven artifacts for the Alloy Android SDK.
 
-## Current Version: 0.1.0-pre.d178f8 (Prerelease)
+## Current Version: 0.1.0 (Release)
 
-⚠️ **This is a prerelease version** - Use for testing only, not recommended for production.
+✅ **This is a stable release version** - Safe for production use.
 
 ## Installation
 
@@ -15,12 +15,12 @@ Add the Alloy Android SDK to your Android project:
 ```kotlin
 repositories {
     maven {
-        url = uri("https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.1.0-pre.d178f8/")
+        url = uri("https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.1.0/")
     }
 }
 
 dependencies {
-    implementation("com.alloy:android-sdk:0.1.0-pre.d178f8")
+    implementation("com.alloy:android-sdk:0.1.0")
 }
 ```
 
@@ -29,25 +29,25 @@ dependencies {
 ```gradle
 repositories {
     maven {
-        url 'https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.1.0-pre.d178f8/'
+        url 'https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.1.0/'
     }
 }
 
 dependencies {
-    implementation 'com.alloy:android-sdk:0.1.0-pre.d178f8'
+    implementation 'com.alloy:android-sdk:0.1.0'
 }
 ```
 
 ## Available Versions
 
-- **Latest**: 0.1.0-pre.d178f8 (Prerelease)
+- **Latest**: 0.1.0 (Release)
 - **Repository Structure**: This repository uses semantic versioning with git tags for both releases and prereleases
 
 ## Version-Specific URLs
 
 Each version of the SDK has its own immutable Maven repository URL:
 
-- **Prerelease**: `https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.1.0-pre.d178f8/`
+- **Release**: `https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.1.0/`
 
 ## Usage
 
@@ -60,12 +60,12 @@ repositories {
     google()
     mavenCentral()
     maven {
-        url = uri("https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.1.0-pre.d178f8/")
+        url = uri("https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.1.0/")
     }
 }
 
 dependencies {
-    implementation("com.alloy:android-sdk:0.1.0-pre.d178f8")
+    implementation("com.alloy:android-sdk:0.1.0")
 }
 ```
 
@@ -106,6 +106,6 @@ class MyApplication : Application() {
 
 ---
 
-**Generated**: 2025-08-26 14:46:34 UTC  
-**Version**: 0.1.0-pre.d178f8  
-**Type**: Prerelease
+**Generated**: 2025-09-16 10:55:24 UTC  
+**Version**: 0.1.0  
+**Type**: Release
