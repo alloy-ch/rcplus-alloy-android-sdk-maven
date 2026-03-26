@@ -2,7 +2,7 @@
 
 This repository hosts the Maven artifacts for the Alloy Android SDK.
 
-## Current Version: 0.2.1 (Release)
+## Current Version: 0.2.2 (Release)
 
 ✅ **This is a stable release version** - Safe for production use.
 
@@ -15,12 +15,12 @@ Add the Alloy Android SDK to your Android project:
 ```kotlin
 repositories {
     maven {
-        url = uri("https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.2.1/")
+        url = uri("https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.2.2/")
     }
 }
 
 dependencies {
-    implementation("com.alloy:android-sdk:0.2.1")
+    implementation("com.alloy:android-sdk:0.2.2")
 }
 ```
 
@@ -29,25 +29,25 @@ dependencies {
 ```gradle
 repositories {
     maven {
-        url 'https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.2.1/'
+        url 'https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.2.2/'
     }
 }
 
 dependencies {
-    implementation 'com.alloy:android-sdk:0.2.1'
+    implementation 'com.alloy:android-sdk:0.2.2'
 }
 ```
 
 ## Available Versions
 
-- **Latest**: 0.2.1 (Release)
+- **Latest**: 0.2.2 (Release)
 - **Repository Structure**: This repository uses semantic versioning with git tags for both releases and prereleases
 
 ## Version-Specific URLs
 
 Each version of the SDK has its own immutable Maven repository URL:
 
-- **Release**: `https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.2.1/`
+- **Release**: `https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.2.2/`
 
 ## Usage
 
@@ -60,12 +60,12 @@ repositories {
     google()
     mavenCentral()
     maven {
-        url = uri("https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.2.1/")
+        url = uri("https://raw.githubusercontent.com/alloy-ch/rcplus-alloy-android-sdk-maven/v0.2.2/")
     }
 }
 
 dependencies {
-    implementation("com.alloy:android-sdk:0.2.1")
+    implementation("com.alloy:android-sdk:0.2.2")
 }
 ```
 
@@ -106,6 +106,6 @@ class MyApplication : Application() {
 
 ---
 
-**Generated**: 2025-10-15 06:47:09 UTC  
-**Version**: 0.2.1  
+**Generated**: 2026-03-26 15:23:47 UTC  
+**Version**: 0.2.2  
 **Type**: Release
